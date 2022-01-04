@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularioo.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Desafio do Nycollas</h1> 
+        <p id="subtitulo">Formulário</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo" id="check">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="Nome"~required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong>
+                    
+                </label>
+                <input type="text" name="Sobrenome" id="Sobrenome"~required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label><strong>Email</strong></label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label><strong>Qual a sua application?</strong></label>
+            <label>
+                <input type="radio" name="deweb" value="Estados Unidos">Estados Unidos
+            </label>
+            <label>
+                <input type="radio" name="deweb" value="Brasil">Brasil
+            </label>
+            <label>
+                <input type="radio" name="deweb" value="França">França
+            </label>
+        </div> <br>
+        
+        <div>
+            <label for="senioridade">Faculdade</label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Havard</option>
+                <option>MIT</option>
+                <option>Stanford</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div>
+                <label> Qaul a parte mais difícil da sua aplicação:</label> <br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="ESSAY">
+                <label for="tecnologia1">essay</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="SAT">
+                <label for="tecnologia2">sat</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="ACT">
+                <label for="tecnologia3">act</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="TOELF">
+                <label for="tecnologia4">toelf</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="DET">
+                <label for="tecnologia5">det</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Conte um pouco da sua esperiência</label>
+            <textarea style="width: 26em;" row="6" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>
+</body>
+</html>

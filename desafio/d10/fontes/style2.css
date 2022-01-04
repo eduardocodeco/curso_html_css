@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+body{
+    background-color: gray;
+}
+h1{
+    font-family: 'Android';
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 320;
+    max-width: 800px;
+}
+img{
+    width:100%;
+}

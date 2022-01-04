@@ -1,0 +1,13 @@
+body{
+    font: bold 16px arial;
+    text-align: left;
+    background-color: aqua;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
